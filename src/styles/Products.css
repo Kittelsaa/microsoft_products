@@ -1,0 +1,116 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-container h1 {
+    margin-bottom: 40px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .product-card h2 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .product-card p {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  .more-from-microsoft {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .more-from-microsoft h2 {
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .grid-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .letter-box {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .grid-item li {
+    margin: 5px 0;
+  }
+  
+  .grid-item a {
+    text-decoration: none;
+    color: #0078d4;
+  }
+  
+  .grid-item a:hover {
+    text-decoration: underline;
+  }
+  
+
+
